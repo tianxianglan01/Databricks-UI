@@ -23,7 +23,8 @@ Options to create a:
 
 #### Data
 - You can see all your tables and databases here.
-- in order to see your saved and exported tables (exported as in a table you want to have persistence with), click on 'Create Table' and then DBFS
+- in order to see your saved and exported tables directory (exported as in a table you want to have persistence with), click on 'Create Table' and then DBFS
+- under tables, you can see your saved tables 
 - your imported csv files are in DBFS > FileStore > tables
 - your saved tables can be found in DBFS > hive > warehouse
 
@@ -32,3 +33,14 @@ Options to create a:
 
 #### Jobs
 - where you can create pipelines to schedule jobs
+
+### Additional Info
+
+#### How to delete notebooks or tables or directories
+Workspaces 
+- in order to copy/delete/create/movea folder or a notebook, go to WorkSpaces > and then hit the drop down option to the upper right of a folder. 
+- Deleted items are moved to the trash and are permenantly deleted after 30 days
+Tables
+- in order to see your exported tables, look under data > tables
+- you can delete a table (permenantly) with the drop down button right by the table 
+
